@@ -1,0 +1,114 @@
+{
+  "shortcut": {
+    "apifox": [
+      "api",
+      "fox"
+    ],
+    "baiduyun": [
+      "baidu",
+      "yun"
+    ],
+    "battle": [
+      "net"
+    ],
+    "bcut": [],
+    "c": [],
+    "carnac": [
+      "keyshow"
+    ],
+    "chatgpt": [
+      "chat",
+      "gpt"
+    ],
+    "chrome": [
+      "g",
+      "google"
+    ],
+    "clash": [
+      "net"
+    ],
+    "code": [],
+    "contextmenumanager": [
+      "cm",
+      "menu"
+    ],
+    "controller": [
+      "system"
+    ],
+    "core": [],
+    "d": [],
+    "ddlc": [],
+    "everything": [
+      "eve",
+      "every",
+      "find",
+      "f"
+    ],
+    "factor": [
+      "fact",
+      "fac",
+      "fa"
+    ],
+    "feishu": [
+      "fei",
+      "shu"
+    ],
+    "forest": [],
+    "github": [
+      "git",
+      "hub"
+    ],
+    "goland": [
+      "go"
+    ],
+    "hbuilder": [
+      "hb",
+      "h"
+    ],
+    "idea": [],
+    "moon": [],
+    "multrin": ["mul","m"],
+    "navicat": [
+      "navi",
+      "cat",
+      "db",
+      "database"
+    ],
+    "pigcha": [
+      "pig",
+      "cha"
+    ],
+    "potplayer": [],
+    "qbittorrent": [
+      "qb",
+      "bt",
+      "torrent"
+    ],
+    "qq": [],
+    "resp": [],
+    "starcraft": [
+      "star",
+      "sc"
+    ],
+    "steam": [],
+    "tg": [],
+    "thelongdark": [],
+    "tim": [],
+    "timer": [],
+    "tuba": [],
+    "typora": [
+      "md",
+      "markdown",
+      "ty"
+    ],
+    "wallpaper": [
+      "wall",
+      "paper",
+      "wp"
+    ],
+    "wechat": [
+      "wx",
+      "we"
+    ]
+  }
+}

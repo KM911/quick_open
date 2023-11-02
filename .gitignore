@@ -1,0 +1,26 @@
+# idea
+.idea
+.vscode
+
+# bin 
+*.bin
+*.exe
+*.class
+*.o
+*.out
+*.so
+
+#image
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+/node_modules/
+/dist/
+/out/
+/target/
+test
+*.lnk
+*.json
+*.lnk
