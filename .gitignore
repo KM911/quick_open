@@ -15,6 +15,7 @@
 *.jpg
 *.jpeg
 *.gif
+*.webp
 
 /node_modules/
 /dist/

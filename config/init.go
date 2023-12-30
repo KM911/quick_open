@@ -2,14 +2,15 @@ package config
 
 import (
 	"fmt"
-	"github.com/KM911/oslib/adt"
-	"github.com/KM911/oslib/fs"
-	"github.com/spf13/viper"
+	"o/util"
+
 	"io"
 	"os"
 	"path"
 	"path/filepath"
 	"strings"
+
+	"github.com/spf13/viper"
 )
 
 var (
@@ -31,7 +32,7 @@ CheckEnv checks if the environment is ready for the o to run
 if not, it will try to fix it
 */
 func SetGlobal() {
-	PWD = fs.ExecutePath()
+	PWD = util.ExecuteDirectory
 	ConfigFile = filepath.Join(PWD, "config", "config.json")
 	ShortcutDir = filepath.Join(PWD, "config", "shortcut")
 }
@@ -81,9 +82,9 @@ func InitConfig() {
 
 	MoveDesktopShortcut()
 
-	ShortcutList := fs.Dir(filepath.Join(PWD, "config", "shortcut"))
+	ShortcutList := util.Dir(filepath.Join(PWD, "config", "shortcut"))
 	for i := 0; i < len(ShortcutList); i++ {
-		viper.Set("shortcut."+fs.FileName(ShortcutList[i]), []string{})
+		viper.Set("shortcut."+util.FileName(ShortcutList[i]), []string{})
 	}
 
 	viper.Set("debug", false)
@@ -94,9 +95,9 @@ func InitConfig() {
 
 func MoveDesktopShortcut() {
 	PublicDesktop := filepath.Join("C:\\Users\\Public\\Desktop")
-	PublicDesktopDir := fs.Dir(PublicDesktop)
+	PublicDesktopDir := util.Dir(PublicDesktop)
 	UserDesktop := filepath.Join("C:\\Users", os.Getenv("username"), "Desktop")
-	UserDesktopDir := fs.Dir(UserDesktop)
+	UserDesktopDir := util.Dir(UserDesktop)
 	for _, i := range PublicDesktopDir {
 		if path.Ext(i) == ".lnk" {
 			println("move " + filepath.Join(PublicDesktop, i) + " to " + filepath.Join(PWD,
@@ -135,15 +136,15 @@ func RemoveShortcutKey(key string) {
 func CheckShortcut() {
 	// 添加新的快捷方式
 	MoveDesktopShortcut()
-	shortcutList := fs.Dir(ShortcutDir)
+	shortcutList := util.Dir(ShortcutDir)
 	//fmt.Println(shortcutList)
 	for i := range shortcutList {
-		shortcutList[i] = strings.ToLower(fs.FileName(shortcutList[i]))
+		shortcutList[i] = strings.ToLower(util.FileName(shortcutList[i]))
 	}
 	//fmt.Println(shortcutList)
 	for _, i := range shortcutList {
 		// 去掉后缀
-		shortcut := strings.ToLower(fs.FileName(i))
+		shortcut := strings.ToLower(util.FileName(i))
 		value := viper.Get("shortcut." + shortcut)
 		if value == nil {
 			fmt.Println("add new shortcut", shortcut)
@@ -154,7 +155,7 @@ func CheckShortcut() {
 	// 删除不存在的快捷方式
 
 	for key := range viper.GetStringMapStringSlice("shortcut") {
-		if !adt.InArray(key, shortcutList) {
+		if !util.InArray(key, shortcutList) {
 			fmt.Println("shortcut " + key + " not exist")
 			RemoveShortcutKey(key)
 		}

@@ -4,14 +4,15 @@
       "api",
       "fox"
     ],
+    "ar": [],
     "baiduyun": [
       "baidu",
       "yun"
     ],
-    "battle": [
-      "net"
-    ],
-    "bcut": [],
+    "bandizip": [],
+    "battle": [],
+    "bibi": [],
+    "blibli": [],
     "c": [],
     "carnac": [
       "keyshow"
@@ -24,10 +25,12 @@
       "g",
       "google"
     ],
-    "clash": [
+    "clash verge": [
       "net"
     ],
+    "clion": [],
     "code": [],
+    "config": [],
     "contextmenumanager": [
       "cm",
       "menu"
@@ -35,9 +38,9 @@
     "controller": [
       "system"
     ],
-    "core": [],
     "d": [],
-    "ddlc": [],
+    "docker": [],
+    "docker desktop": [],
     "everything": [
       "eve",
       "every",
@@ -49,11 +52,12 @@
       "fac",
       "fa"
     ],
+    "fastcopy": [],
     "feishu": [
       "fei",
       "shu"
     ],
-    "forest": [],
+    "fiber": [],
     "github": [
       "git",
       "hub"
@@ -61,39 +65,56 @@
     "goland": [
       "go"
     ],
+    "google chrome": [],
     "hbuilder": [
       "hb",
       "h"
     ],
     "idea": [],
+    "lettura": [],
+    "logseq": [],
+    "miui+": [],
     "moon": [],
-    "multrin": ["mul","m"],
     "navicat": [
       "navi",
       "cat",
       "db",
       "database"
     ],
+    "neovim qt": [],
+    "nexus": [],
+    "notion": [],
+    "nut": [],
+    "obs": [],
+    "obsidian": [
+      "ob",
+      "note"
+    ],
+    "output": [],
     "pigcha": [
       "pig",
       "cha"
     ],
     "potplayer": [],
+    "powertoys": [],
     "qbittorrent": [
       "qb",
       "bt",
       "torrent"
     ],
+    "qdir": [],
     "qq": [],
     "resp": [],
-    "starcraft": [
-      "star",
-      "sc"
-    ],
+    "screentogif": [],
+    "shortcut": [],
+    "siyuan": [],
+    "smart": [],
+    "sourcetree": [],
     "steam": [],
+    "tableau": [],
+    "tcut": [],
+    "teaching": [],
     "tg": [],
-    "thelongdark": [],
-    "tim": [],
     "timer": [],
     "tuba": [],
     "typora": [
@@ -106,9 +127,16 @@
       "paper",
       "wp"
     ],
+    "waterfox": [],
     "wechat": [
       "wx",
       "we"
-    ]
+    ],
+    "wemeet": [],
+    "wezterm": [],
+    "wmusic": [],
+    "x": [],
+    "xmind": [],
+    "坚果云": []
   }
 }

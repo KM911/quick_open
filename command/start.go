@@ -1,8 +1,8 @@
 package command
 
 import (
-	"github.com/KM911/oslib"
 	"o/config"
+	"o/system"
 	"path/filepath"
 )
 
@@ -24,7 +24,7 @@ func Start(cmd string) {
 		//  I need to parse the command
 		guessTheCommand(cmd)
 	} else {
-		oslib.Run("start " + filepath.Join(config.ShortcutDir, target))
+		system.ExecuteCommand("start " + filepath.Join(config.ShortcutDir, target))
 	}
 }
 

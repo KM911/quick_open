@@ -1,7 +1,6 @@
 {
   "shortcut": {
-    "affine": [],
-    "alacritty": [],
+    "adobe premiere pro 2021": [],
     "apifox": [
       "api",
       "fox"
@@ -11,20 +10,15 @@
       "baidu",
       "yun"
     ],
-    "battle": [
-      "net"
-    ],
-    "bibi": [
-      "bi"
-    ],
+    "bandizip": [],
+    "battle": [],
+    "bibi": [],
     "blibli": [],
     "c": [],
     "carnac": [
-      "keyshow",
-      "key",
-      "car",
-      "keyboard"
+      "keyshow"
     ],
+    "chat2db": [],
     "chatgpt": [
       "chat",
       "gpt"
@@ -33,11 +27,9 @@
       "g",
       "google"
     ],
-    "clash": [
-      "cl"
-    ],
     "clion": [],
     "code": [],
+    "config": [],
     "contextmenumanager": [
       "cm",
       "menu"
@@ -48,6 +40,7 @@
     "d": [],
     "docker": [],
     "docker desktop": [],
+    "etc": [],
     "everything": [
       "eve",
       "every",
@@ -64,6 +57,7 @@
       "fei",
       "shu"
     ],
+    "fiber": [],
     "github": [
       "git",
       "hub"
@@ -78,9 +72,10 @@
     ],
     "idea": [],
     "lettura": [],
-    "logseq": [],
+    "miui": [],
     "miui+": [],
     "moon": [],
+    "music": [],
     "navicat": [
       "navi",
       "cat",
@@ -88,32 +83,21 @@
       "database"
     ],
     "neovim qt": [],
-    "nexus": [
-      "dock"
-    ],
-    "notion": [
-      "no",
-      "not"
-    ],
+    "nexus": [],
+    "notion": [],
     "nut": [],
-    "obs": [
-      "record",
-      "rec"
-    ],
+    "obs": [],
     "obsidian": [
       "ob",
-      "obsi",
-      "od"
+      "note"
     ],
     "output": [],
-    "pigcha": [],
-    "potplayer": [],
-    "powertoys": [
-      "power",
-      "toy",
-      "toys",
-      "pt"
+    "pigcha": [
+      "pig",
+      "cha"
     ],
+    "potplayer": [],
+    "powertoys": [],
     "qbittorrent": [
       "qb",
       "bt",
@@ -121,22 +105,24 @@
     ],
     "qdir": [],
     "qq": [],
-    "resp": [],
-    "screentogif": [],
+    "resp": [
+      "redis",
+      "rs"
+    ],
+    "screentogif": [
+      "gif"
+    ],
     "shortcut": [],
     "siyuan": [],
     "smart": [],
-    "sourcetree": [],
-    "starcraft": [
-      "star",
-      "sc"
+    "sourcetree": [
+      "tree"
     ],
     "steam": [],
     "tableau": [],
     "tcut": [],
     "teaching": [],
     "tg": [],
-    "the genesis order version 87092": [],
     "timer": [],
     "tuba": [],
     "typora": [
@@ -144,19 +130,27 @@
       "markdown",
       "ty"
     ],
+    "verge": [
+      "net"
+    ],
     "wallpaper": [
       "wall",
       "paper",
       "wp"
     ],
+    "waterfox": [],
     "wechat": [
       "wx",
       "we"
     ],
+    "wemeet": [],
     "wezterm": [],
+    "wiztree": [],
     "wmusic": [],
+    "wps": [],
     "x": [],
     "xmind": [],
-    "坚果云": []
+    "坚果云": [],
+    "必剪": []
   }
 }
